@@ -4,7 +4,7 @@ Create a command line program that will take an internet domain name (i.e. “ja
 
 For this exercise , I am submitting 2 python programs:
 
-1) email_crawler.py 
+1) email_crawler.py ||
 2) email_crawler_jana.py 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -24,13 +24,13 @@ Output: List of email ids, printed one by one on screen
 I have Anaconda environement that comes preloaded with all the required libraries.
 
 Libraries required:
-from bs4 import BeautifulSoup --> easy_install BeautifulSoup4
-from collections import deque --> Inbuilt
-import re --> Inbuilt
-import sys --> Inbuilt
-from urlparse import urlparse --> Inbuilt
-from urlparse import urljoin --> Inbuilt
-import urllib2 --> Inbuilt
+from bs4 import BeautifulSoup --> easy_install BeautifulSoup4 ||
+from collections import deque --> Inbuilt ||
+import re --> Inbuilt ||
+import sys --> Inbuilt ||
+from urlparse import urlparse --> Inbuilt ||
+from urlparse import urljoin --> Inbuilt ||
+import urllib2 --> Inbuilt ||
 
 Output:
 C:\Users\sanjiv\Google Drive\Workspace\PycharmProjects\Coop\Jana>python email_crawler.py http://cens.io
@@ -77,11 +77,11 @@ Limitation :  Google chrome needs to be present for this crawler to run as selen
               Provide the path of chrome driver(chromedriver.exe). Similar driver comes for other browser as well.
 			  
 Libraries required:
-from contextlib import closing
-from selenium.webdriver import Chrome --> pip install selenium ---> http://selenium-python.readthedocs.org/
-from selenium.webdriver.support.ui import WebDriverWait
-import re 
-import sys
+from contextlib import closing ||
+from selenium.webdriver import Chrome --> pip install selenium ---> http://selenium-python.readthedocs.org/ ||
+from selenium.webdriver.support.ui import WebDriverWait ||
+import re ||
+import sys ||
 
 Also this crawler assumes that you have Google Chrome browser. You also need to set path for the chromedriver in the program.
 Example : 'C:\Users\sanjiv\Anaconda\Practice ML with Data\chromedriver.exe'
