@@ -1,0 +1,17 @@
+1) email_crawler.py
+
+from bs4 import BeautifulSoup -- pip install BeautifulSoup4
+from collections import deque
+import re
+import sys
+from urlparse import urlparse
+from urlparse import urljoin
+import urllib2
+
+2) email_crawler_jana.py
+
+from contextlib import closing
+from selenium.webdriver import Chrome -- pip installl selenium
+from selenium.webdriver.support.ui import WebDriverWait
+import re
+import sys
