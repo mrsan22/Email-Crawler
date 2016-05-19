@@ -1,9 +1,9 @@
-Create a command line program that will take an internet domain name (i.e. “jana.com”) and print out a list of the email addresses that were found on that website.
+Create a command line program that will take an internet domain name (i.e. “abc.com”) and print out a list of the email addresses that were found on that website.
 
 For this exercise , I have 2 python programs:
 * email_crawler.py 
 * email_crawler_jana.py 
-* 
+
 *******************
 1) email_crawler.py
 *******************
