@@ -1,13 +1,9 @@
-Jana coding-challenge:
-
 Create a command line program that will take an internet domain name (i.e. “jana.com”) and print out a list of the email addresses that were found on that website.
 
-For this exercise , I am submitting 2 python programs:
-
-1) email_crawler.py ||
-2) email_crawler_jana.py 
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+For this exercise , I have 2 python programs:
+* email_crawler.py 
+* email_crawler_jana.py 
+* 
 *******************
 1) email_crawler.py
 *******************
@@ -23,14 +19,14 @@ Output: List of email ids, printed one by one on screen
 
 I have Anaconda environement that comes preloaded with all the required libraries.
 
-Libraries required:
-from bs4 import BeautifulSoup --> easy_install BeautifulSoup4 ||
-from collections import deque --> Inbuilt ||
-import re --> Inbuilt ||
-import sys --> Inbuilt ||
-from urlparse import urlparse --> Inbuilt ||
-from urlparse import urljoin --> Inbuilt ||
-import urllib2 --> Inbuilt ||
+* Libraries required:
+* from bs4 import BeautifulSoup --> easy_install BeautifulSoup4
+* from collections import deque --> Inbuilt 
+* import re --> Inbuilt
+* import sys --> Inbuilt 
+* from urlparse import urlparse --> Inbuilt
+* from urlparse import urljoin --> Inbuilt 
+* import urllib2 --> Inbuilt 
 
 Output:
 C:\Users\sanjiv\Google Drive\Workspace\PycharmProjects\Coop\Jana>python email_crawler.py http://cens.io
@@ -76,12 +72,12 @@ Output: List of email ids, printed one by one on screen
 Limitation :  Google chrome needs to be present for this crawler to run as selenium uses Chrome driver.
               Provide the path of chrome driver(chromedriver.exe). Similar driver comes for other browser as well.
 			  
-Libraries required:
-from contextlib import closing ||
-from selenium.webdriver import Chrome --> pip install selenium ---> http://selenium-python.readthedocs.org/ ||
-from selenium.webdriver.support.ui import WebDriverWait ||
-import re ||
-import sys ||
+* Libraries required:
+* from contextlib import closing
+* from selenium.webdriver import Chrome --> pip install selenium ---> http://selenium-python.readthedocs.org/
+* from selenium.webdriver.support.ui import WebDriverWait
+* import re
+* import sys
 
 Also this crawler assumes that you have Google Chrome browser. You also need to set path for the chromedriver in the program.
 Example : 'C:\Users\sanjiv\Anaconda\Practice ML with Data\chromedriver.exe'
@@ -92,6 +88,6 @@ Crawling http://jana.com and collecting all the email id's........
 
 Printing each of the collected email ids......
 
-Email Id:  press@jana.com
-Email Id:  info@jana.com
-Email Id:  sales@jana.com
+* Email Id:  press@jana.com
+* Email Id:  info@jana.com
+* Email Id:  sales@jana.com
